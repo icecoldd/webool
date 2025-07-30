@@ -1,0 +1,41 @@
+{
+  "name": "webool",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Shared": {
+        "$className": "Folder",
+        "$path": "src/shared"
+      },
+      "Packages": {
+        "$className": "Folder",
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Server": {
+        "$className": "Script",
+        "$path": "src/server/init.server.luau"
+      },
+      "ServerPackages": {
+        "$className": "Folder",
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "Client": {
+          "$className": "LocalScript",
+          "$path": "src/client/init.client.luau"
+        }
+      }
+    }
+  }
+}
