@@ -9,6 +9,9 @@
       },
       "Packages": {
         "$path": "Packages"
+      },
+      "Instances" : {
+        "$path": "src/StarterGUI"
       }
     },
 
@@ -16,6 +19,7 @@
       "Server": {
         "$path": "src/server"
       },
+      
       "ServerPackages": {
         "$path": "ServerPackages"
       }
@@ -27,6 +31,10 @@
           "$path": "src/client"
         }
       }
+    },
+
+    "ServerStorage": {
+      "$path": "src/serverstorage"
     }
   }
 }
